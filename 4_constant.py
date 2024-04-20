@@ -1,14 +1,15 @@
-# meows = 3
+# MEOWS = 3
 
-# for _ in range(meows):
-#     print("meow")
+# for _ in range(MEOWS):
+#     print("meow") 
+
 
 class Cat:
-    MEOW = 3
+    MEOWS = 3
 
     def meow(self):
-        for _ in range(Cat.MEOW):
-            print("meow")
+        for _ in range(Cat.MEOWS):
+            print("meows")
 
 cat = Cat()
 cat.meow()
